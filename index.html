@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>JUEGO DEL AHORCADO</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href ="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
+    
+    
+    
+    
+  </head>
+  <body>
+    <div class="encabezado">
+    
+      <div id="logo">
+      <img src="https://play-lh.googleusercontent.com/IDLZXWHLCVun428g_YGnR2HgnoIUlIRNfkmEEM0hmrzhBKZrhJ5UwM0_eHaWQT4gXAs" alt="logo" width="80"/>
+      </div>
+      <h1 id="tituloJuego">JUEGO DEL AHORCADO</h1>
+      </div>
+    </div>
+
+    <div class="contenedorBotones">
+      <button id="botonInicio">Iniciar Juego</button>
+      <button id="botonAnadirPalabra">Agregar Nueva Palabra</button>
+    </div>
+
+    <div class="adicionarPalabra">
+      <h1 id="tituloIngresoPalabra">Ingrese una Palabra</h1>
+      <label for="palabra"></label>
+      <input id="nuevaPalabra" name="nuevaPalabra" type="text" placeholder="Escriba la nueva palabra" class="campo">
+    </div>
+    <div id="informacionAdicionar">
+      <img id="vector" src="Vector.png" alt="vector" width="12"/>
+      <p id="informacion">Máx. 8 letras</p>
+    </div>
+    <div id="contenedorBotonesAdicPalabra">
+      <button id="botonGuardarIniciar">Guardar e Iniciar</button>
+      <button id="botonCancelar">Cancelar</button>
+    </div>
+
+    <div id="mensajeInicio" style="display: none;">
+      <h5>Juego Iniciado</h5>
+      
+    </div>
+    <div id="mensajeAcierto" style="display: none;">
+      <h5>¡Bien!</h5>
+    </div>
+
+  
+    <div id="mensajeDesacierto" style="display: none;">
+      <h5>¡Fallaste!</h5>
+    </div>
+
+    
+    <canvas id="canvas" width="600" height="400"></canvas>
+
+    
+    <form id="formularioDummy">
+      <div>
+        
+        <label for="entrada_Dummy">Digita una letra</label>
+        
+			  <input  id="entrada_Dummy" name="entrada_Dummy" type="text">
+        
+        
+
+      </div>
+      
+    </form>
+    
+    <script src="ahorcado.js"></script>
+    <script src="anadirPalabra.js"></script>
+    <script src="canvas.js"></script>
+  </body>
+</html>

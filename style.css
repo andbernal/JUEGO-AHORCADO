@@ -1,0 +1,289 @@
+
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #E5E5E5;
+    margin: 20px;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+    
+  }
+
+
+#tituloJuego{
+    font-size: 32px;
+    color: darkblue;
+    text-align: center;
+    margin: 20px;
+}
+
+#botonInicio {
+    width: 232px;
+    height: 67px;
+    background-color: #0a3871;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    
+
+    
+
+}
+#botonInicio a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Inter";
+
+}
+
+#botonAnadirPalabra{
+    width: 232px;
+    height: 67px;
+    font-size: 30px;
+    background-color: white;
+    color: darkblue;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: darkblue;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+#botonAnadirPalabra a{
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+
+.adicionarPalabra{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+#informacionAdicionar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between
+    width= 75%;
+}
+#contenedorBotonesAdicPalabra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+#tituloIngresoPalabra{
+   
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #0A3871;
+    margin: 10px;
+    top: 240px;
+    display: none;
+    
+    
+}
+#nuevaPalabra{
+    width: 30%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: none;
+
+}
+
+
+.advertencia{
+    margin: 40px 40px 0px 10px ;
+    display: none;
+}
+.palabra-adicionar{
+    font-size: 16px;
+    color:#0A3871;
+    margin: 40px;
+    display: none;
+}
+
+    
+
+#informacion{
+    font-size: 12px;
+    color: #495057;
+    margin: 40px 10px;
+    display: none;
+}
+
+#botonGuardarIniciar {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    background-color: #0a3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    gap: 8px;
+    width: 232px;
+    height: 67px;
+    border: none;
+    border-radius: 24px;
+    gap: 8px;
+    margin: 10px 0px;
+
+    
+
+    /* Dark blue/dark-blue-300 */
+
+    
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 1;
+
+}
+#botonGuardarIniciar a{
+    
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Inter";
+
+}
+#botonCancelar{
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 232px;
+    height: 67px;
+    background-color:white;
+    border: #0A3871;
+    border-radius: 24px;
+    gap: 8px;
+    margin: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 1;
+}
+
+#botonCancelar a{
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+.contenedorCanvas{
+    display: flex;
+}
+
+#canvas {
+    display: none;
+    border: 1px solid #ffffff;
+    margin: auto;
+}
+#mensajeInicio{
+    display: none;
+    flex-direction: column;
+    height: 50%;
+
+}
+
+#mensajeAcierto{
+    display: none;
+    font-size: 2cm;
+    flex-direction: row;
+    height: 20px;
+    align-items: center;
+}
+#mensajeDesacierto{
+    display: none;
+    font-size: 2cm;
+    flex-direction: row;
+    height: 20px;
+    align-items: center;
+}
+#entrada_Dummy{
+    display: none;
+    height: 40px;
+    width: 20px;
+    font-size: 1cm;
+
+}
+
+#vector{
+    display: none;
+}
+
+#formularioDummy{
+    display:none;
+    flex-direction: column;
+    font-size: 1cm;
+}
+#digitaLetra{
+    display: none;
+    font-size: 1cm;
+}
+@media screen and (min-width: 600px) {
+    #canvas {
+      width: 100%;
+      height: 90vh;
+    }
+}
